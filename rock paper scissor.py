@@ -4,7 +4,6 @@ print("...paper")
 print("...scissor")
 
 player = input('Enter your choice:').lower()
-print("NO CHEATING..........\n\n"*20)
 import random
 rand_num = random.randint(0,2)
 if rand_num == 0:
@@ -15,7 +14,7 @@ else:
     computer = 'scissor'
     
 #print('computer plays {}'.format(computer))  # for python 3.6.4
-print(f"computer plays {computer}")
+print(f"computer plays {computer}")  # for python version 3.6.5
 
 if player:
     if player == computer:
